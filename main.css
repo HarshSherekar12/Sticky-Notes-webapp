@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: #321688;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    padding: 25px;
+    gap: 25px;
+}
+
+.note {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    resize: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.add-note {
+    height: 200px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 150px;
+    color: cyan;
+    transition: background 0.2s;
+}
+
+.add-node:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
